@@ -15,7 +15,8 @@ public class App {
         race.setTrack(track);
 
 
-
+race.start();
 
     }
 }
+

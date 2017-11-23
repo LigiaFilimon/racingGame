@@ -11,10 +11,14 @@ public class Race {
         engine.setManufacturer("Volvo");
         firstCompetitor = createCompetitor(engine, "Volvo", "red",40.7, 8.8,4);
 
+        System.out.println(firstCompetitor.toString());
+
         Engine secondEngine = new Engine();
         secondEngine.setManufacturer("Toyota");
         secondCompetitor = createCompetitor(secondEngine, "Toyota", "black", 40.3, 8.4,
                 4);
+        System.out.println(secondCompetitor.toString());
+
 
 
 

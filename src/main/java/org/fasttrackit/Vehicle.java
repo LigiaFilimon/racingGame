@@ -32,7 +32,11 @@ public class Vehicle {
         this.color = color;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

@@ -1,6 +1,6 @@
 package org.fasttrackit;
 
-public class AutoVehicle extends Vehicle  {
+public class AutoVehicle extends Vehicle {
     private double mileage;
     private double fuelLevel;
     private Engine engine;
@@ -9,7 +9,11 @@ public class AutoVehicle extends Vehicle  {
         this.engine = engine;
 
 
+    }
 
+    public AutoVehicle() {
+
+        this(new Engine());
     }
 
     public double getMileage() {
