@@ -7,7 +7,7 @@ package org.fasttrackit;
 
 public class App {
     public static void main(
-            String[] args) {
+            String[] args) throws Exception {
         Race race = new Race();
 
         Track track = new Track();
